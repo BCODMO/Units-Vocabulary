@@ -1,6 +1,7 @@
 # Units-Vocabulary
 
 For annotations to NERC P06 vocabulary
+http://vocab.nerc.ac.uk/collection/P06/current/
 
 See: https://github.com/BCODMO/laminar-web/issues/386
 
