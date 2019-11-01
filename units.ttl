@@ -1,0 +1,10 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+<http://vocab.nerc.ac.uk/collection/P06/current/BQM3/>
+  dcterms:title "Becquerels per cubic meter"@en-US ;
+  dcterms:contributor <http://orcid.org/0000-0003-4486-9448> ;
+  prov:generatedAtTime "2019-10-31T21:08:23Z"^^xsd:dateTime .
+  
