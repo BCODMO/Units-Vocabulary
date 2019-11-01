@@ -3,15 +3,14 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix schema: <http://schema.org/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix np: <http://www.nanopub.org/nschema#> .
-@prefix annotation: <http://lod.bco-dmo.org/id/nanopub/> .
+@prefix annotation: <http://lod.bco-dmo.org/id/annotation/> .
 
 # Assertion BQM3 - use US english skos:prefLabel
 <http://vocab.nerc.ac.uk/collection/P06/current/BQM3/>
-    np:hasAnnotation annotation:SDN:P06::BQM3_BCODMO::1 .
+    annotation:hasAnnotation annotation:SDN:P06::BQM3_BCODMO::1 .
 annotation:SDN:P06::BQM3_BCODMO::1
-    rdf:type np:Assertion ;
-    schema:about skos:prefLabel ;
-    skos:prefLabel "Becquerels per cubic meter"@en-US ;
-    prov:wasAttributedTo <http://orcid.org/0000-0003-4486-9448> ;
-    prov:generatedAtTime "2019-10-31T21:08:23Z"^^xsd:dateTime .
+    annotation:hasAssertion [
+        skos:prefLabel "Becquerels per cubic meter"@en-US ;
+        prov:wasAttributedTo <http://orcid.org/0000-0003-4486-9448> ;
+        prov:generatedAtTime "2019-10-31T21:08:23Z"^^xsd:dateTime ;
+    ] .
